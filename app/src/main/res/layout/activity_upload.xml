@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context=".activity.UploadActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/uploadToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:padding="15dp">
+
+        <Button
+            android:id="@+id/btn_ChooseImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose Image"
+            android:drawableLeft="@drawable/ic_action_image_choose"
+            android:drawablePadding="3dp"
+            android:textStyle="bold"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/btn_UploadImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/btn_ChooseImage"
+            android:text="Upload Image"
+            android:drawableLeft="@drawable/ic_action_image_upload"
+            android:drawablePadding="3dp"
+            android:layout_marginLeft="50dp"
+            android:textStyle="bold"
+
+            />
+
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="center"/>
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewRetrieval"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

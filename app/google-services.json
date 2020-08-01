@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "495357899281",
+    "firebase_url": "https://vehicledetection-sih-e02ef.firebaseio.com",
+    "project_id": "vehicledetection-sih-e02ef",
+    "storage_bucket": "vehicledetection-sih-e02ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:495357899281:android:6dbd31e5d910be007637b0",
+        "android_client_info": {
+          "package_name": "com.mohammedthowfiq.vehicledetection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "495357899281-c4jfj1vjd63brca97sd1mcpevhrq3hvb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5NRYUqPIWAbyb2z1A-TQnpd2kR3ryWkA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "495357899281-c4jfj1vjd63brca97sd1mcpevhrq3hvb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
